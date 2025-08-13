@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('Hello DevOps World!');
+  res.send('Hallo DevOps Welt, ich habs jetzt auf deutsch übersetzt!');
 });
 
 const PORT = process.env.PORT || 3000;
